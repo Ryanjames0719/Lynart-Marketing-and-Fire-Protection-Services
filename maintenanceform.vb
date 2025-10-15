@@ -10,6 +10,10 @@ Public Class maintenanceform
         pnlMenu.Width = 0
         btnMenu.Location = New Point(0, -1)
 
+        partname.Text = ProductData.CurrentProductName
+        partsprice.Text = ProductData.CurrentProductPrice
+        partpic.Image = ProductData.CurrentProductImage
+
         cmbPriority.Items.Clear()
         cmbPriority.Items.Add("Normal")
         cmbPriority.Items.Add("Urgent")
@@ -28,6 +32,7 @@ Public Class maintenanceform
     End Sub
 
     Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
+        pnlMenu.BringToFront()
         ToggleMenu(pnlMenu, 330, isMenuOpen)
         btnMenu.BringToFront()
     End Sub
@@ -105,6 +110,17 @@ Public Class maintenanceform
     End Sub
 
     Private Sub Label22_Click(sender As Object, e As EventArgs) Handles Label22.Click
+
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Dim ftnpage As New Frontpage()
+        ftnpage.Show()
+        Me.Hide()
 
     End Sub
 End Class

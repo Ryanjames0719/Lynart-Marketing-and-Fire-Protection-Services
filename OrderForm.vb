@@ -10,6 +10,9 @@ Public Class OrderForm
         productprice.Text = FormatPeso(Convert.ToDecimal(ProductData.CurrentProductPrice))
         PRODUCTIMG.Image = ProductData.CurrentProductImage
         pnlMenu.Width = 0
+        btnMenu.Location = New Point(0, -1)
+        btnMenu.BringToFront()
+        btnMenu.FlatAppearance.BorderSize = 0
         Userlabel.Text = SessionData.CurrentUsername
         AddHandler quantitynum.TextChanged, AddressOf UpdateTotalAmount
 
@@ -29,13 +32,14 @@ Public Class OrderForm
             totalamntbox.Text = FormatPeso(0)
         End Try
     End Sub
+
     Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
         pnlMenu.BringToFront()
         btnMenu.BringToFront()
         ToggleMenu(pnlMenu, 330, isMenuOpen)
     End Sub
 
-    Private Sub Label19_Click(sender As Object, e As EventArgs) Handles Label19.Click
+    Private Sub Label19_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -90,15 +94,15 @@ Public Class OrderForm
 
         Catch ex As Exception
 
-            If trans IsNot Nothing AndAlso conn.State = ConnectionState.Open Then
-                Try
-                    trans.Rollback()
-                Catch rbEx As Exception
-                    ' Transaction may be already rolled back or unusable
-                    MessageBox.Show("Rollback Error (ignored): " & rbEx.Message)
-                End Try
-            End If
-            MessageBox.Show("Error: " & ex.Message)
+            'If trans IsNot Nothing AndAlso conn.State = ConnectionState.Open Then
+            '    Try
+            '        trans.Rollback()
+            '    Catch rbEx As Exception
+            '        ' Transaction may be already rolled back or unusable
+            '        MessageBox.Show("Rollback Error (ignored): " & rbEx.Message)
+            '    End Try
+            'End If
+            'MessageBox.Show("Error: " & ex.Message)
 
         Finally
             conn.Close()
@@ -119,5 +123,19 @@ Public Class OrderForm
 
     Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
 
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Dim home As New Frontpage()
+        home.Show()
+        Me.Hide()
     End Sub
 End Class
