@@ -2,18 +2,9 @@
     Private isMenuOpen As Boolean = False
     Dim lbs As Integer
     Private Sub Services_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Userlabel.Text = SessionData.CurrentUsername
-        Dim UserID As Integer = SessionData.CurrentUserID
-        btnMenu.FlatStyle = FlatStyle.Flat
-        btnMenu.FlatAppearance.BorderSize = 0
-        btnMenu.Location = New Point(0, -1)
-        btnMenu.BringToFront()
-    End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
-        pnlMenu.BringToFront()
-        btnMenu.BringToFront()
-        ToggleMenu(pnlMenu, 330, isMenuOpen)
+        Dim UserID As Integer = SessionData.CurrentUserID
+
     End Sub
 
     Private Sub Red5lbs_Click(sender As Object, e As EventArgs) Handles Red5lbs.Click
@@ -75,7 +66,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -83,9 +74,13 @@
 
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
         Dim frntpage As New Frontpage()
         frntpage.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub ServcsPage_Click(sender As Object, e As EventArgs) Handles ServcsPage.Click
+
     End Sub
 End Class
