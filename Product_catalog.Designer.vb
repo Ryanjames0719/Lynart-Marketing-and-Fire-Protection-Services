@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Product_catalog
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,20 +20,9 @@ Partial Class Product_catalog
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Product_catalog))
-        Me.pnlMenu = New System.Windows.Forms.Panel()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Userlabel = New System.Windows.Forms.Label()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Panel13 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -57,8 +46,6 @@ Partial Class Product_catalog
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.searchbox = New System.Windows.Forms.TextBox()
-        Me.searchbtn = New System.Windows.Forms.Button()
         Me.HeaderPanel = New System.Windows.Forms.Panel()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -106,8 +93,6 @@ Partial Class Product_catalog
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.pnlMenu.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel7.SuspendLayout()
         Me.Panel13.SuspendLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -146,175 +131,6 @@ Partial Class Product_catalog
         CType(Me.red1picture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'pnlMenu
-        '
-        Me.pnlMenu.BackColor = System.Drawing.Color.Firebrick
-        Me.pnlMenu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.pnlMenu.Controls.Add(Me.Button9)
-        Me.pnlMenu.Controls.Add(Me.Button10)
-        Me.pnlMenu.Controls.Add(Me.Button11)
-        Me.pnlMenu.Controls.Add(Me.Button12)
-        Me.pnlMenu.Controls.Add(Me.Button13)
-        Me.pnlMenu.Controls.Add(Me.Button14)
-        Me.pnlMenu.Controls.Add(Me.Button15)
-        Me.pnlMenu.Controls.Add(Me.Button16)
-        Me.pnlMenu.Controls.Add(Me.Userlabel)
-        Me.pnlMenu.Controls.Add(Me.PictureBox3)
-        Me.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left
-        Me.pnlMenu.ForeColor = System.Drawing.Color.Transparent
-        Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
-        Me.pnlMenu.Name = "pnlMenu"
-        Me.pnlMenu.Size = New System.Drawing.Size(253, 697)
-        Me.pnlMenu.TabIndex = 1
-        '
-        'Button9
-        '
-        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button9.FlatAppearance.BorderSize = 0
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_logout_25
-        Me.Button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button9.Location = New System.Drawing.Point(31, 551)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(164, 28)
-        Me.Button9.TabIndex = 59
-        Me.Button9.Text = "     LOG-OUT"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button10.FlatAppearance.BorderSize = 0
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_settings_23
-        Me.Button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button10.Location = New System.Drawing.Point(31, 439)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(163, 28)
-        Me.Button10.TabIndex = 58
-        Me.Button10.Text = "SETTINGS"
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button11.FlatAppearance.BorderSize = 0
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_warranty_24
-        Me.Button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button11.Location = New System.Drawing.Point(31, 387)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(173, 28)
-        Me.Button11.TabIndex = 57
-        Me.Button11.Text = "    WARRANTIES"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button12.FlatAppearance.BorderSize = 0
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_services_24
-        Me.Button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button12.Location = New System.Drawing.Point(31, 330)
-        Me.Button12.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(163, 28)
-        Me.Button12.TabIndex = 56
-        Me.Button12.Text = " SERVICES"
-        Me.Button12.UseVisualStyleBackColor = True
-        '
-        'Button13
-        '
-        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button13.FlatAppearance.BorderSize = 0
-        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_maintenance_22
-        Me.Button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button13.Location = New System.Drawing.Point(31, 277)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(186, 28)
-        Me.Button13.TabIndex = 55
-        Me.Button13.Text = "    MAINTENANCE"
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button14.FlatAppearance.BorderSize = 0
-        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_fire_extinguisher_25__1_
-        Me.Button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button14.Location = New System.Drawing.Point(31, 222)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(172, 28)
-        Me.Button14.TabIndex = 54
-        Me.Button14.Text = "  PRODUCTS"
-        Me.Button14.UseVisualStyleBackColor = True
-        '
-        'Button15
-        '
-        Me.Button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button15.FlatAppearance.BorderSize = 0
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_inventory_30
-        Me.Button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button15.Location = New System.Drawing.Point(26, 173)
-        Me.Button15.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(178, 28)
-        Me.Button15.TabIndex = 53
-        Me.Button15.Text = "    INVENTORY"
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Button16
-        '
-        Me.Button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button16.FlatAppearance.BorderSize = 0
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_home_24__1_
-        Me.Button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button16.Location = New System.Drawing.Point(31, 126)
-        Me.Button16.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(143, 28)
-        Me.Button16.TabIndex = 52
-        Me.Button16.Text = "  HOME"
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Userlabel
-        '
-        Me.Userlabel.AutoSize = True
-        Me.Userlabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Userlabel.Location = New System.Drawing.Point(125, 40)
-        Me.Userlabel.Name = "Userlabel"
-        Me.Userlabel.Size = New System.Drawing.Size(83, 29)
-        Me.Userlabel.TabIndex = 27
-        Me.Userlabel.Text = "USER"
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(12, 12)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(96, 89)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 17
-        Me.PictureBox3.TabStop = False
         '
         'Panel7
         '
@@ -584,40 +400,17 @@ Partial Class Product_catalog
         Me.Label23.TabIndex = 25
         Me.Label23.Text = "Php 1,950"
         '
-        'searchbox
-        '
-        Me.searchbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.searchbox.Location = New System.Drawing.Point(268, 72)
-        Me.searchbox.Name = "searchbox"
-        Me.searchbox.Size = New System.Drawing.Size(928, 29)
-        Me.searchbox.TabIndex = 15
-        '
-        'searchbtn
-        '
-        Me.searchbtn.BackColor = System.Drawing.Color.White
-        Me.searchbtn.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.searchbtn.FlatAppearance.BorderSize = 0
-        Me.searchbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.searchbtn.Location = New System.Drawing.Point(1213, 70)
-        Me.searchbtn.Name = "searchbtn"
-        Me.searchbtn.Size = New System.Drawing.Size(70, 31)
-        Me.searchbtn.TabIndex = 14
-        Me.searchbtn.Text = "SEARCH"
-        Me.searchbtn.UseVisualStyleBackColor = False
-        '
         'HeaderPanel
         '
         Me.HeaderPanel.BackColor = System.Drawing.Color.Firebrick
         Me.HeaderPanel.Controls.Add(Me.Label11)
         Me.HeaderPanel.Controls.Add(Me.PictureBox2)
         Me.HeaderPanel.Controls.Add(Me.Label10)
-        Me.HeaderPanel.Controls.Add(Me.searchbtn)
-        Me.HeaderPanel.Controls.Add(Me.searchbox)
         Me.HeaderPanel.Dock = System.Windows.Forms.DockStyle.Top
         Me.HeaderPanel.Location = New System.Drawing.Point(0, 0)
         Me.HeaderPanel.Margin = New System.Windows.Forms.Padding(2)
         Me.HeaderPanel.Name = "HeaderPanel"
-        Me.HeaderPanel.Size = New System.Drawing.Size(1296, 111)
+        Me.HeaderPanel.Size = New System.Drawing.Size(978, 111)
         Me.HeaderPanel.TabIndex = 42
         '
         'Label11
@@ -626,7 +419,7 @@ Partial Class Product_catalog
         Me.Label11.BackColor = System.Drawing.Color.Firebrick
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label11.Location = New System.Drawing.Point(268, 21)
+        Me.Label11.Location = New System.Drawing.Point(12, 37)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(236, 25)
         Me.Label11.TabIndex = 17
@@ -637,7 +430,7 @@ Partial Class Product_catalog
         Me.PictureBox2.BackColor = System.Drawing.Color.Firebrick
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(1202, 3)
+        Me.PictureBox2.Location = New System.Drawing.Point(873, 12)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(93, 50)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -650,7 +443,7 @@ Partial Class Product_catalog
         Me.Label10.BackColor = System.Drawing.Color.Firebrick
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label10.Location = New System.Drawing.Point(954, 21)
+        Me.Label10.Location = New System.Drawing.Point(613, 21)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(242, 25)
         Me.Label10.TabIndex = 12
@@ -665,16 +458,16 @@ Partial Class Product_catalog
         Me.MainPanel.Location = New System.Drawing.Point(0, 0)
         Me.MainPanel.Margin = New System.Windows.Forms.Padding(2)
         Me.MainPanel.Name = "MainPanel"
-        Me.MainPanel.Size = New System.Drawing.Size(1296, 697)
+        Me.MainPanel.Size = New System.Drawing.Size(978, 642)
         Me.MainPanel.TabIndex = 65
         '
         'Panel16
         '
         Me.Panel16.BackColor = System.Drawing.Color.White
         Me.Panel16.Controls.Add(Me.TabControl1)
-        Me.Panel16.Location = New System.Drawing.Point(264, 116)
+        Me.Panel16.Location = New System.Drawing.Point(0, 111)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(1034, 578)
+        Me.Panel16.Size = New System.Drawing.Size(977, 578)
         Me.Panel16.TabIndex = 43
         '
         'TabControl1
@@ -687,7 +480,7 @@ Partial Class Product_catalog
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1034, 578)
+        Me.TabControl1.Size = New System.Drawing.Size(977, 578)
         Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.TabControl1.TabIndex = 0
         '
@@ -705,7 +498,7 @@ Partial Class Product_catalog
         Me.TabPage1.Location = New System.Drawing.Point(4, 44)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1026, 530)
+        Me.TabPage1.Size = New System.Drawing.Size(969, 530)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "EXTINGUISHERS"
         '
@@ -714,9 +507,9 @@ Partial Class Product_catalog
         Me.Panel21.BackColor = System.Drawing.Color.Brown
         Me.Panel21.Controls.Add(Me.PictureBox10)
         Me.Panel21.Controls.Add(Me.Panel22)
-        Me.Panel21.Location = New System.Drawing.Point(633, 329)
+        Me.Panel21.Location = New System.Drawing.Point(565, 340)
         Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(237, 270)
+        Me.Panel21.Size = New System.Drawing.Size(227, 253)
         Me.Panel21.TabIndex = 76
         '
         'PictureBox10
@@ -725,7 +518,7 @@ Partial Class Product_catalog
         Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
         Me.PictureBox10.Location = New System.Drawing.Point(16, 11)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(202, 156)
+        Me.PictureBox10.Size = New System.Drawing.Size(191, 141)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 18
         Me.PictureBox10.TabStop = False
@@ -737,17 +530,18 @@ Partial Class Product_catalog
         Me.Panel22.Controls.Add(Me.blue3price)
         Me.Panel22.Controls.Add(Me.blue3name)
         Me.Panel22.Controls.Add(Me.Label15)
-        Me.Panel22.Location = New System.Drawing.Point(16, 179)
+        Me.Panel22.Location = New System.Drawing.Point(16, 167)
         Me.Panel22.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(202, 74)
+        Me.Panel22.Size = New System.Drawing.Size(191, 74)
         Me.Panel22.TabIndex = 45
         '
         'blue3price
         '
         Me.blue3price.AutoSize = True
-        Me.blue3price.BackColor = System.Drawing.Color.Transparent
+        Me.blue3price.BackColor = System.Drawing.Color.White
         Me.blue3price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue3price.ForeColor = System.Drawing.Color.Black
         Me.blue3price.Location = New System.Drawing.Point(53, 45)
         Me.blue3price.Name = "blue3price"
         Me.blue3price.Size = New System.Drawing.Size(43, 15)
@@ -757,20 +551,22 @@ Partial Class Product_catalog
         'blue3name
         '
         Me.blue3name.AutoSize = True
-        Me.blue3name.BackColor = System.Drawing.Color.Transparent
+        Me.blue3name.BackColor = System.Drawing.Color.White
         Me.blue3name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.blue3name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue3name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue3name.ForeColor = System.Drawing.Color.Black
         Me.blue3name.Location = New System.Drawing.Point(9, 7)
         Me.blue3name.Name = "blue3name"
-        Me.blue3name.Size = New System.Drawing.Size(188, 32)
+        Me.blue3name.Size = New System.Drawing.Size(174, 30)
         Me.blue3name.TabIndex = 59
         Me.blue3name.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "20 Lbs. FOAM/AFFF (blue)"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.BackColor = System.Drawing.Color.White
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.Black
         Me.Label15.Location = New System.Drawing.Point(9, 44)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(32, 15)
@@ -782,9 +578,9 @@ Partial Class Product_catalog
         Me.Panel3.BackColor = System.Drawing.Color.Brown
         Me.Panel3.Controls.Add(Me.PictureBox9)
         Me.Panel3.Controls.Add(Me.Panel20)
-        Me.Panel3.Location = New System.Drawing.Point(324, 329)
+        Me.Panel3.Location = New System.Drawing.Point(295, 340)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(237, 270)
+        Me.Panel3.Size = New System.Drawing.Size(227, 253)
         Me.Panel3.TabIndex = 75
         '
         'PictureBox9
@@ -793,7 +589,7 @@ Partial Class Product_catalog
         Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
         Me.PictureBox9.Location = New System.Drawing.Point(16, 11)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(202, 156)
+        Me.PictureBox9.Size = New System.Drawing.Size(191, 141)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 18
         Me.PictureBox9.TabStop = False
@@ -805,29 +601,32 @@ Partial Class Product_catalog
         Me.Panel20.Controls.Add(Me.blue2name)
         Me.Panel20.Controls.Add(Me.Label3)
         Me.Panel20.Controls.Add(Me.blue2price)
-        Me.Panel20.Location = New System.Drawing.Point(16, 179)
+        Me.Panel20.ForeColor = System.Drawing.Color.Black
+        Me.Panel20.Location = New System.Drawing.Point(16, 167)
         Me.Panel20.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(202, 74)
+        Me.Panel20.Size = New System.Drawing.Size(191, 74)
         Me.Panel20.TabIndex = 45
         '
         'blue2name
         '
         Me.blue2name.AutoSize = True
-        Me.blue2name.BackColor = System.Drawing.Color.Transparent
+        Me.blue2name.BackColor = System.Drawing.Color.White
         Me.blue2name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.blue2name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue2name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue2name.ForeColor = System.Drawing.Color.Black
         Me.blue2name.Location = New System.Drawing.Point(8, 5)
         Me.blue2name.Name = "blue2name"
-        Me.blue2name.Size = New System.Drawing.Size(189, 32)
+        Me.blue2name.Size = New System.Drawing.Size(175, 30)
         Me.blue2name.TabIndex = 58
         Me.blue2name.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "10 Lbs. FOAM/AFFF (Blue)"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(8, 37)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(32, 15)
@@ -837,8 +636,9 @@ Partial Class Product_catalog
         'blue2price
         '
         Me.blue2price.AutoSize = True
-        Me.blue2price.BackColor = System.Drawing.Color.Transparent
+        Me.blue2price.BackColor = System.Drawing.Color.White
         Me.blue2price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue2price.ForeColor = System.Drawing.Color.Black
         Me.blue2price.Location = New System.Drawing.Point(52, 37)
         Me.blue2price.Name = "blue2price"
         Me.blue2price.Size = New System.Drawing.Size(43, 15)
@@ -850,9 +650,9 @@ Partial Class Product_catalog
         Me.Panel9.BackColor = System.Drawing.Color.Brown
         Me.Panel9.Controls.Add(Me.bluepicture)
         Me.Panel9.Controls.Add(Me.Panel19)
-        Me.Panel9.Location = New System.Drawing.Point(23, 329)
+        Me.Panel9.Location = New System.Drawing.Point(23, 340)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(237, 270)
+        Me.Panel9.Size = New System.Drawing.Size(227, 253)
         Me.Panel9.TabIndex = 74
         '
         'bluepicture
@@ -861,7 +661,7 @@ Partial Class Product_catalog
         Me.bluepicture.Image = CType(resources.GetObject("bluepicture.Image"), System.Drawing.Image)
         Me.bluepicture.Location = New System.Drawing.Point(16, 11)
         Me.bluepicture.Name = "bluepicture"
-        Me.bluepicture.Size = New System.Drawing.Size(202, 156)
+        Me.bluepicture.Size = New System.Drawing.Size(191, 141)
         Me.bluepicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.bluepicture.TabIndex = 18
         Me.bluepicture.TabStop = False
@@ -873,10 +673,11 @@ Partial Class Product_catalog
         Me.Panel19.Controls.Add(Me.Label9)
         Me.Panel19.Controls.Add(Me.blue1price)
         Me.Panel19.Controls.Add(Me.blue1name)
-        Me.Panel19.Location = New System.Drawing.Point(16, 179)
+        Me.Panel19.ForeColor = System.Drawing.Color.Black
+        Me.Panel19.Location = New System.Drawing.Point(16, 166)
         Me.Panel19.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(202, 74)
+        Me.Panel19.Size = New System.Drawing.Size(191, 74)
         Me.Panel19.TabIndex = 45
         '
         'Label9
@@ -884,6 +685,7 @@ Partial Class Product_catalog
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
         Me.Label9.Location = New System.Drawing.Point(8, 37)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(32, 15)
@@ -895,6 +697,7 @@ Partial Class Product_catalog
         Me.blue1price.AutoSize = True
         Me.blue1price.BackColor = System.Drawing.Color.Transparent
         Me.blue1price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue1price.ForeColor = System.Drawing.Color.Black
         Me.blue1price.Location = New System.Drawing.Point(52, 37)
         Me.blue1price.Name = "blue1price"
         Me.blue1price.Size = New System.Drawing.Size(43, 15)
@@ -906,10 +709,11 @@ Partial Class Product_catalog
         Me.blue1name.AutoSize = True
         Me.blue1name.BackColor = System.Drawing.Color.Transparent
         Me.blue1name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.blue1name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue1name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue1name.ForeColor = System.Drawing.Color.Black
         Me.blue1name.Location = New System.Drawing.Point(8, 5)
         Me.blue1name.Name = "blue1name"
-        Me.blue1name.Size = New System.Drawing.Size(181, 32)
+        Me.blue1name.Size = New System.Drawing.Size(167, 30)
         Me.blue1name.TabIndex = 64
         Me.blue1name.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Lbs. FOAM/AFFF (Blue)"
         '
@@ -918,9 +722,9 @@ Partial Class Product_catalog
         Me.Panel17.BackColor = System.Drawing.Color.Brown
         Me.Panel17.Controls.Add(Me.Panel18)
         Me.Panel17.Controls.Add(Me.PictureBox4)
-        Me.Panel17.Location = New System.Drawing.Point(633, 22)
+        Me.Panel17.Location = New System.Drawing.Point(565, 22)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(237, 270)
+        Me.Panel17.Size = New System.Drawing.Size(227, 253)
         Me.Panel17.TabIndex = 73
         '
         'Panel18
@@ -930,29 +734,31 @@ Partial Class Product_catalog
         Me.Panel18.Controls.Add(Me.red20lbs)
         Me.Panel18.Controls.Add(Me.Label22)
         Me.Panel18.Controls.Add(Me.red3price)
-        Me.Panel18.Location = New System.Drawing.Point(16, 179)
+        Me.Panel18.Location = New System.Drawing.Point(16, 163)
         Me.Panel18.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(202, 74)
+        Me.Panel18.Size = New System.Drawing.Size(191, 74)
         Me.Panel18.TabIndex = 45
         '
         'red20lbs
         '
         Me.red20lbs.AutoSize = True
-        Me.red20lbs.BackColor = System.Drawing.Color.Transparent
+        Me.red20lbs.BackColor = System.Drawing.Color.White
         Me.red20lbs.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.red20lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red20lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red20lbs.ForeColor = System.Drawing.Color.Black
         Me.red20lbs.Location = New System.Drawing.Point(3, 9)
         Me.red20lbs.Name = "red20lbs"
-        Me.red20lbs.Size = New System.Drawing.Size(195, 32)
+        Me.red20lbs.Size = New System.Drawing.Size(183, 30)
         Me.red20lbs.TabIndex = 44
         Me.red20lbs.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "20 Lbs. Dry Chemical (Red)"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.BackColor = System.Drawing.Color.Transparent
+        Me.Label22.BackColor = System.Drawing.Color.White
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Black
         Me.Label22.Location = New System.Drawing.Point(8, 41)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(32, 15)
@@ -962,8 +768,9 @@ Partial Class Product_catalog
         'red3price
         '
         Me.red3price.AutoSize = True
-        Me.red3price.BackColor = System.Drawing.Color.Transparent
+        Me.red3price.BackColor = System.Drawing.Color.White
         Me.red3price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red3price.ForeColor = System.Drawing.Color.Black
         Me.red3price.Location = New System.Drawing.Point(46, 41)
         Me.red3price.Name = "red3price"
         Me.red3price.Size = New System.Drawing.Size(43, 15)
@@ -976,7 +783,7 @@ Partial Class Product_catalog
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(16, 11)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(202, 156)
+        Me.PictureBox4.Size = New System.Drawing.Size(191, 141)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 18
         Me.PictureBox4.TabStop = False
@@ -986,9 +793,9 @@ Partial Class Product_catalog
         Me.Panel1.BackColor = System.Drawing.Color.Brown
         Me.Panel1.Controls.Add(Me.Panel12)
         Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Location = New System.Drawing.Point(324, 22)
+        Me.Panel1.Location = New System.Drawing.Point(295, 22)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(237, 270)
+        Me.Panel1.Size = New System.Drawing.Size(227, 253)
         Me.Panel1.TabIndex = 72
         '
         'Panel12
@@ -998,29 +805,31 @@ Partial Class Product_catalog
         Me.Panel12.Controls.Add(Me.red10lbs)
         Me.Panel12.Controls.Add(Me.Label13)
         Me.Panel12.Controls.Add(Me.red2price)
-        Me.Panel12.Location = New System.Drawing.Point(16, 179)
+        Me.Panel12.Location = New System.Drawing.Point(16, 163)
         Me.Panel12.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(202, 74)
+        Me.Panel12.Size = New System.Drawing.Size(191, 74)
         Me.Panel12.TabIndex = 45
         '
         'red10lbs
         '
         Me.red10lbs.AutoSize = True
-        Me.red10lbs.BackColor = System.Drawing.Color.Transparent
+        Me.red10lbs.BackColor = System.Drawing.Color.White
         Me.red10lbs.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.red10lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red10lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red10lbs.ForeColor = System.Drawing.Color.Black
         Me.red10lbs.Location = New System.Drawing.Point(3, 9)
         Me.red10lbs.Name = "red10lbs"
-        Me.red10lbs.Size = New System.Drawing.Size(195, 32)
+        Me.red10lbs.Size = New System.Drawing.Size(183, 30)
         Me.red10lbs.TabIndex = 44
         Me.red10lbs.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "10 Lbs. Dry Chemical (Red)"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.BackColor = System.Drawing.Color.White
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Black
         Me.Label13.Location = New System.Drawing.Point(8, 41)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(32, 15)
@@ -1030,8 +839,9 @@ Partial Class Product_catalog
         'red2price
         '
         Me.red2price.AutoSize = True
-        Me.red2price.BackColor = System.Drawing.Color.Transparent
+        Me.red2price.BackColor = System.Drawing.Color.White
         Me.red2price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red2price.ForeColor = System.Drawing.Color.Black
         Me.red2price.Location = New System.Drawing.Point(46, 41)
         Me.red2price.Name = "red2price"
         Me.red2price.Size = New System.Drawing.Size(43, 15)
@@ -1044,7 +854,7 @@ Partial Class Product_catalog
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(16, 11)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(202, 156)
+        Me.PictureBox1.Size = New System.Drawing.Size(191, 141)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 18
         Me.PictureBox1.TabStop = False
@@ -1056,7 +866,7 @@ Partial Class Product_catalog
         Me.Panel2.Controls.Add(Me.red1picture)
         Me.Panel2.Location = New System.Drawing.Point(23, 22)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(237, 270)
+        Me.Panel2.Size = New System.Drawing.Size(227, 253)
         Me.Panel2.TabIndex = 71
         '
         'Panel8
@@ -1066,29 +876,31 @@ Partial Class Product_catalog
         Me.Panel8.Controls.Add(Me.red5lbs)
         Me.Panel8.Controls.Add(Me.red1price)
         Me.Panel8.Controls.Add(Me.Label1)
-        Me.Panel8.Location = New System.Drawing.Point(16, 179)
+        Me.Panel8.Location = New System.Drawing.Point(16, 163)
         Me.Panel8.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(202, 74)
+        Me.Panel8.Size = New System.Drawing.Size(191, 74)
         Me.Panel8.TabIndex = 45
         '
         'red5lbs
         '
         Me.red5lbs.AutoSize = True
-        Me.red5lbs.BackColor = System.Drawing.Color.Transparent
+        Me.red5lbs.BackColor = System.Drawing.Color.White
         Me.red5lbs.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.red5lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red5lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red5lbs.ForeColor = System.Drawing.Color.Black
         Me.red5lbs.Location = New System.Drawing.Point(8, 9)
         Me.red5lbs.Name = "red5lbs"
-        Me.red5lbs.Size = New System.Drawing.Size(187, 32)
+        Me.red5lbs.Size = New System.Drawing.Size(175, 30)
         Me.red5lbs.TabIndex = 44
         Me.red5lbs.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Lbs. Dry Chemical (Red)"
         '
         'red1price
         '
         Me.red1price.AutoSize = True
-        Me.red1price.BackColor = System.Drawing.Color.Transparent
+        Me.red1price.BackColor = System.Drawing.Color.White
         Me.red1price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red1price.ForeColor = System.Drawing.Color.Black
         Me.red1price.Location = New System.Drawing.Point(46, 41)
         Me.red1price.Name = "red1price"
         Me.red1price.Size = New System.Drawing.Size(43, 15)
@@ -1098,8 +910,9 @@ Partial Class Product_catalog
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(8, 41)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(32, 15)
@@ -1112,7 +925,7 @@ Partial Class Product_catalog
         Me.red1picture.Image = CType(resources.GetObject("red1picture.Image"), System.Drawing.Image)
         Me.red1picture.Location = New System.Drawing.Point(16, 11)
         Me.red1picture.Name = "red1picture"
-        Me.red1picture.Size = New System.Drawing.Size(202, 156)
+        Me.red1picture.Size = New System.Drawing.Size(191, 141)
         Me.red1picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.red1picture.TabIndex = 18
         Me.red1picture.TabStop = False
@@ -1123,7 +936,7 @@ Partial Class Product_catalog
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(901, 6)
+        Me.Button1.Location = New System.Drawing.Point(842, 6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 36)
         Me.Button1.TabIndex = 70
@@ -1141,7 +954,7 @@ Partial Class Product_catalog
         Me.TabPage2.Location = New System.Drawing.Point(4, 44)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1026, 530)
+        Me.TabPage2.Size = New System.Drawing.Size(969, 530)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "EQUIPMENTS"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1152,7 +965,7 @@ Partial Class Product_catalog
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(918, 6)
+        Me.Button2.Location = New System.Drawing.Point(860, 6)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(102, 36)
         Me.Button2.TabIndex = 71
@@ -1164,15 +977,11 @@ Partial Class Product_catalog
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1296, 697)
-        Me.Controls.Add(Me.pnlMenu)
+        Me.ClientSize = New System.Drawing.Size(978, 642)
         Me.Controls.Add(Me.MainPanel)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Product_catalog"
         Me.Text = "Product_catalog"
-        Me.pnlMenu.ResumeLayout(False)
-        Me.pnlMenu.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel7.ResumeLayout(False)
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout()
@@ -1224,11 +1033,7 @@ Partial Class Product_catalog
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents pnlMenu As Panel
     Friend WithEvents Label10 As Label
-    Friend WithEvents searchbox As TextBox
-    Friend WithEvents searchbtn As Button
-    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Panel4 As Panel
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Panel5 As Panel
@@ -1239,7 +1044,6 @@ Partial Class Product_catalog
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Label24 As Label
     Friend WithEvents Label23 As Label
-    Friend WithEvents Userlabel As Label
     Friend WithEvents HeaderPanel As Panel
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Panel11 As Panel
@@ -1257,14 +1061,6 @@ Partial Class Product_catalog
     Friend WithEvents Label18 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents MainPanel As Panel
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
     Friend WithEvents Panel16 As Panel
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
