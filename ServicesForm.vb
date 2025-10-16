@@ -9,7 +9,7 @@ Public Class ServicesForm
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         Dim trans As SqlTransaction = Nothing
         Try
             conn.Open()
@@ -52,12 +52,6 @@ Public Class ServicesForm
 
 
     Private Sub ServicesForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        pnlMenu.Width = 0
-        Userlabel.Text = SessionData.CurrentUsername
-        btnMenu.FlatStyle = FlatStyle.Flat
-        btnMenu.FlatAppearance.BorderSize = 0
-        btnMenu.Location = New Point(0, -1)
-
         refillitem.Text = ProductData.CurrentProductName
         refillprice.Text = FormatPeso(Convert.ToDecimal(ProductData.CurrentProductPrice))
         poundsPerTank = ProductData.Currentpounds
@@ -81,13 +75,7 @@ Public Class ServicesForm
             totalamntbox.Text = FormatPeso(0)
         End Try
     End Sub
-    Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
-        pnlMenu.BringToFront()
-        btnMenu.BringToFront()
-        ToggleMenu(pnlMenu, 330, isMenuOpen)
-    End Sub
-
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
         Dim ftnpage As New Frontpage()
         ftnpage.Show()
         Me.Hide()
