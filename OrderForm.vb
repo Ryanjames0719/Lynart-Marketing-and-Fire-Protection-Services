@@ -2,18 +2,14 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar
 Imports Mysqlx.Crud
 Public Class OrderForm
-    Private isMenuOpen As Boolean = False
+
     Dim conn As New SqlConnection("Server=localhost\SQLEXPRESS;Database=LynartDB;Trusted_Connection=True;")
     Private Sub OrderForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         PRODUCTNAME.Text = ProductData.CurrentProductName
         productprice.Text = FormatPeso(Convert.ToDecimal(ProductData.CurrentProductPrice))
         PRODUCTIMG.Image = ProductData.CurrentProductImage
-        pnlMenu.Width = 0
-        btnMenu.Location = New Point(0, -1)
-        btnMenu.BringToFront()
-        btnMenu.FlatAppearance.BorderSize = 0
-        Userlabel.Text = SessionData.CurrentUsername
+
         AddHandler quantitynum.TextChanged, AddressOf UpdateTotalAmount
 
     End Sub
@@ -32,17 +28,6 @@ Public Class OrderForm
             totalamntbox.Text = FormatPeso(0)
         End Try
     End Sub
-
-    Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
-        pnlMenu.BringToFront()
-        btnMenu.BringToFront()
-        ToggleMenu(pnlMenu, 330, isMenuOpen)
-    End Sub
-
-    Private Sub Label19_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim trans As SqlTransaction = Nothing
         Try
@@ -109,11 +94,11 @@ Public Class OrderForm
         End Try
     End Sub
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Userlabel_Click(sender As Object, e As EventArgs) Handles Userlabel.Click
+    Private Sub Userlabel_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -121,7 +106,7 @@ Public Class OrderForm
 
     End Sub
 
-    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+    Private Sub Label10_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -129,13 +114,17 @@ Public Class OrderForm
 
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
         Dim home As New Frontpage()
         home.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
