@@ -8,62 +8,120 @@
     End Sub
 
     Private Sub Red5lbs_Click(sender As Object, e As EventArgs) Handles Red5lbs.Click
-        Dim servicefrm As New ServicesForm()
+
         lbs = 5
         ProductData.CurrentProductName = Red5lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(Red5lbsprice.Text)
         ProductData.Currentpounds = lbs
-        servicefrm.Show()
-        Me.Hide()
+        Dim mainForm = Application.OpenForms("Frontpage")
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim servicefrm As New ServicesForm()
+            AddHandler servicefrm.FormClosed, Sub()
+                                                  mainForm.Show() ' When OrderForm closes, show MainForm again
+                                              End Sub
+            servicefrm.Show()
+        End If
     End Sub
-
     Private Sub Red10lbs_Click(sender As Object, e As EventArgs) Handles Red10lbs.Click
-        Dim servicefrm As New ServicesForm()
         lbs = 10
         ProductData.CurrentProductName = Red10lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(Red10lbsprice.Text)
         ProductData.Currentpounds = lbs
-        servicefrm.Show()
-        Me.Hide()
+        Dim mainForm = Application.OpenForms("Frontpage")
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim servicefrm As New ServicesForm()
+            AddHandler servicefrm.FormClosed, Sub()
+                                                  mainForm.Show() ' When OrderForm closes, show MainForm again
+                                              End Sub
+            servicefrm.Show()
+        End If
     End Sub
 
     Private Sub Red20lbs_Click(sender As Object, e As EventArgs) Handles Red20lbs.Click
-        Dim servicefrm As New ServicesForm()
+
         lbs = 20
         ProductData.CurrentProductName = Red20lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(Red20lbsprice.Text)
         ProductData.Currentpounds = lbs
-        servicefrm.Show()
-        Me.Hide()
+        Dim mainForm = Application.OpenForms("Frontpage")
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim servicefrm As New ServicesForm()
+            AddHandler servicefrm.FormClosed, Sub()
+                                                  mainForm.Show() ' When OrderForm closes, show MainForm again
+                                              End Sub
+            servicefrm.Show()
+        End If
     End Sub
 
     Private Sub blue5lbs_Click(sender As Object, e As EventArgs) Handles blue5lbs.Click
-        Dim servicefrm As New ServicesForm()
+
         lbs = 5
         ProductData.CurrentProductName = blue5lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue5lbsprice.Text)
         ProductData.Currentpounds = lbs
-        servicefrm.Show()
-        Me.Hide()
+        Dim mainForm = Application.OpenForms("Frontpage")
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim servicefrm As New ServicesForm()
+            AddHandler servicefrm.FormClosed, Sub()
+                                                  mainForm.Show() ' When OrderForm closes, show MainForm again
+                                              End Sub
+            servicefrm.Show()
+        End If
     End Sub
     Private Sub blue10lbs_Click(sender As Object, e As EventArgs) Handles blue10lbs.Click
-        Dim servicefrm As New ServicesForm()
+
         lbs = 10
         ProductData.CurrentProductName = blue10lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue10lbsprice.Text)
         ProductData.Currentpounds = lbs
-        servicefrm.Show()
-        Me.Hide()
+        Dim mainForm = Application.OpenForms("Frontpage")
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim servicefrm As New ServicesForm()
+            AddHandler servicefrm.FormClosed, Sub()
+                                                  mainForm.Show() ' When OrderForm closes, show MainForm again
+                                              End Sub
+            servicefrm.Show()
+        End If
     End Sub
 
     Private Sub blue20lbs_Click(sender As Object, e As EventArgs) Handles blue20lbs.Click
-        Dim servicefrm As New ServicesForm()
+
         lbs = 10
         ProductData.CurrentProductName = blue20lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue20lbsprice.Text)
         ProductData.Currentpounds = lbs
-        servicefrm.Show()
-        Me.Hide()
+        Dim mainForm = Application.OpenForms("Frontpage")
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim servicefrm As New ServicesForm()
+            AddHandler servicefrm.FormClosed, Sub()
+                                                  mainForm.Show() ' When OrderForm closes, show MainForm again
+                                              End Sub
+            servicefrm.Show()
+        End If
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs)

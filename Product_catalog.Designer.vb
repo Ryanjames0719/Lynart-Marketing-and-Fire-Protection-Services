@@ -55,41 +55,41 @@ Partial Class Product_catalog
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel21 = New System.Windows.Forms.Panel()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.blue20lbspic = New System.Windows.Forms.PictureBox()
         Me.Panel22 = New System.Windows.Forms.Panel()
-        Me.blue3price = New System.Windows.Forms.Label()
-        Me.blue3name = New System.Windows.Forms.Label()
+        Me.blue20lbsprice = New System.Windows.Forms.Label()
+        Me.blue20lbs = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.blue10lbspic = New System.Windows.Forms.PictureBox()
         Me.Panel20 = New System.Windows.Forms.Panel()
-        Me.blue2name = New System.Windows.Forms.Label()
+        Me.blue10lbs = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.blue2price = New System.Windows.Forms.Label()
+        Me.blue10lbsprice = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.bluepicture = New System.Windows.Forms.PictureBox()
+        Me.blue5lbspic = New System.Windows.Forms.PictureBox()
         Me.Panel19 = New System.Windows.Forms.Panel()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.blue1price = New System.Windows.Forms.Label()
-        Me.blue1name = New System.Windows.Forms.Label()
+        Me.blue5lbsprice = New System.Windows.Forms.Label()
+        Me.blue5lbs = New System.Windows.Forms.Label()
         Me.Panel17 = New System.Windows.Forms.Panel()
         Me.Panel18 = New System.Windows.Forms.Panel()
         Me.red20lbs = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.red3price = New System.Windows.Forms.Label()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.red20lbspic = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.red10lbs = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.red2price = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.red10lbspic = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.red5lbs = New System.Windows.Forms.Label()
         Me.red1price = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.red1picture = New System.Windows.Forms.PictureBox()
+        Me.red5lbspic = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -112,23 +112,23 @@ Partial Class Product_catalog
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel21.SuspendLayout()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.blue20lbspic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel22.SuspendLayout()
         Me.Panel3.SuspendLayout()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.blue10lbspic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel20.SuspendLayout()
         Me.Panel9.SuspendLayout()
-        CType(Me.bluepicture, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.blue5lbspic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel19.SuspendLayout()
         Me.Panel17.SuspendLayout()
         Me.Panel18.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.red20lbspic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel12.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.red10lbspic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.Panel8.SuspendLayout()
-        CType(Me.red1picture, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.red5lbspic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -505,30 +505,30 @@ Partial Class Product_catalog
         'Panel21
         '
         Me.Panel21.BackColor = System.Drawing.Color.Brown
-        Me.Panel21.Controls.Add(Me.PictureBox10)
+        Me.Panel21.Controls.Add(Me.blue20lbspic)
         Me.Panel21.Controls.Add(Me.Panel22)
         Me.Panel21.Location = New System.Drawing.Point(565, 340)
         Me.Panel21.Name = "Panel21"
         Me.Panel21.Size = New System.Drawing.Size(227, 253)
         Me.Panel21.TabIndex = 76
         '
-        'PictureBox10
+        'blue20lbspic
         '
-        Me.PictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
-        Me.PictureBox10.Location = New System.Drawing.Point(16, 11)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(191, 141)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 18
-        Me.PictureBox10.TabStop = False
+        Me.blue20lbspic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.blue20lbspic.Image = CType(resources.GetObject("blue20lbspic.Image"), System.Drawing.Image)
+        Me.blue20lbspic.Location = New System.Drawing.Point(16, 11)
+        Me.blue20lbspic.Name = "blue20lbspic"
+        Me.blue20lbspic.Size = New System.Drawing.Size(191, 141)
+        Me.blue20lbspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.blue20lbspic.TabIndex = 18
+        Me.blue20lbspic.TabStop = False
         '
         'Panel22
         '
         Me.Panel22.BackColor = System.Drawing.Color.White
         Me.Panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel22.Controls.Add(Me.blue3price)
-        Me.Panel22.Controls.Add(Me.blue3name)
+        Me.Panel22.Controls.Add(Me.blue20lbsprice)
+        Me.Panel22.Controls.Add(Me.blue20lbs)
         Me.Panel22.Controls.Add(Me.Label15)
         Me.Panel22.Location = New System.Drawing.Point(16, 167)
         Me.Panel22.Margin = New System.Windows.Forms.Padding(2)
@@ -536,30 +536,30 @@ Partial Class Product_catalog
         Me.Panel22.Size = New System.Drawing.Size(191, 74)
         Me.Panel22.TabIndex = 45
         '
-        'blue3price
+        'blue20lbsprice
         '
-        Me.blue3price.AutoSize = True
-        Me.blue3price.BackColor = System.Drawing.Color.White
-        Me.blue3price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.blue3price.ForeColor = System.Drawing.Color.Black
-        Me.blue3price.Location = New System.Drawing.Point(53, 45)
-        Me.blue3price.Name = "blue3price"
-        Me.blue3price.Size = New System.Drawing.Size(43, 15)
-        Me.blue3price.TabIndex = 62
-        Me.blue3price.Text = "1,950"
+        Me.blue20lbsprice.AutoSize = True
+        Me.blue20lbsprice.BackColor = System.Drawing.Color.White
+        Me.blue20lbsprice.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue20lbsprice.ForeColor = System.Drawing.Color.Black
+        Me.blue20lbsprice.Location = New System.Drawing.Point(53, 37)
+        Me.blue20lbsprice.Name = "blue20lbsprice"
+        Me.blue20lbsprice.Size = New System.Drawing.Size(43, 15)
+        Me.blue20lbsprice.TabIndex = 62
+        Me.blue20lbsprice.Text = "1,950"
         '
-        'blue3name
+        'blue20lbs
         '
-        Me.blue3name.AutoSize = True
-        Me.blue3name.BackColor = System.Drawing.Color.White
-        Me.blue3name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.blue3name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.blue3name.ForeColor = System.Drawing.Color.Black
-        Me.blue3name.Location = New System.Drawing.Point(9, 7)
-        Me.blue3name.Name = "blue3name"
-        Me.blue3name.Size = New System.Drawing.Size(174, 30)
-        Me.blue3name.TabIndex = 59
-        Me.blue3name.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "20 Lbs. FOAM/AFFF (blue)"
+        Me.blue20lbs.AutoSize = True
+        Me.blue20lbs.BackColor = System.Drawing.Color.White
+        Me.blue20lbs.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.blue20lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue20lbs.ForeColor = System.Drawing.Color.Black
+        Me.blue20lbs.Location = New System.Drawing.Point(9, 7)
+        Me.blue20lbs.Name = "blue20lbs"
+        Me.blue20lbs.Size = New System.Drawing.Size(174, 30)
+        Me.blue20lbs.TabIndex = 59
+        Me.blue20lbs.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "20 Lbs. FOAM/AFFF (blue)"
         '
         'Label15
         '
@@ -567,7 +567,7 @@ Partial Class Product_catalog
         Me.Label15.BackColor = System.Drawing.Color.White
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Black
-        Me.Label15.Location = New System.Drawing.Point(9, 44)
+        Me.Label15.Location = New System.Drawing.Point(9, 36)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(32, 15)
         Me.Label15.TabIndex = 63
@@ -576,31 +576,31 @@ Partial Class Product_catalog
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Brown
-        Me.Panel3.Controls.Add(Me.PictureBox9)
+        Me.Panel3.Controls.Add(Me.blue10lbspic)
         Me.Panel3.Controls.Add(Me.Panel20)
         Me.Panel3.Location = New System.Drawing.Point(295, 340)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(227, 253)
         Me.Panel3.TabIndex = 75
         '
-        'PictureBox9
+        'blue10lbspic
         '
-        Me.PictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
-        Me.PictureBox9.Location = New System.Drawing.Point(16, 11)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(191, 141)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 18
-        Me.PictureBox9.TabStop = False
+        Me.blue10lbspic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.blue10lbspic.Image = CType(resources.GetObject("blue10lbspic.Image"), System.Drawing.Image)
+        Me.blue10lbspic.Location = New System.Drawing.Point(16, 11)
+        Me.blue10lbspic.Name = "blue10lbspic"
+        Me.blue10lbspic.Size = New System.Drawing.Size(191, 141)
+        Me.blue10lbspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.blue10lbspic.TabIndex = 18
+        Me.blue10lbspic.TabStop = False
         '
         'Panel20
         '
         Me.Panel20.BackColor = System.Drawing.Color.White
         Me.Panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel20.Controls.Add(Me.blue2name)
+        Me.Panel20.Controls.Add(Me.blue10lbs)
         Me.Panel20.Controls.Add(Me.Label3)
-        Me.Panel20.Controls.Add(Me.blue2price)
+        Me.Panel20.Controls.Add(Me.blue10lbsprice)
         Me.Panel20.ForeColor = System.Drawing.Color.Black
         Me.Panel20.Location = New System.Drawing.Point(16, 167)
         Me.Panel20.Margin = New System.Windows.Forms.Padding(2)
@@ -608,18 +608,18 @@ Partial Class Product_catalog
         Me.Panel20.Size = New System.Drawing.Size(191, 74)
         Me.Panel20.TabIndex = 45
         '
-        'blue2name
+        'blue10lbs
         '
-        Me.blue2name.AutoSize = True
-        Me.blue2name.BackColor = System.Drawing.Color.White
-        Me.blue2name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.blue2name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.blue2name.ForeColor = System.Drawing.Color.Black
-        Me.blue2name.Location = New System.Drawing.Point(8, 5)
-        Me.blue2name.Name = "blue2name"
-        Me.blue2name.Size = New System.Drawing.Size(175, 30)
-        Me.blue2name.TabIndex = 58
-        Me.blue2name.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "10 Lbs. FOAM/AFFF (Blue)"
+        Me.blue10lbs.AutoSize = True
+        Me.blue10lbs.BackColor = System.Drawing.Color.White
+        Me.blue10lbs.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.blue10lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue10lbs.ForeColor = System.Drawing.Color.Black
+        Me.blue10lbs.Location = New System.Drawing.Point(8, 5)
+        Me.blue10lbs.Name = "blue10lbs"
+        Me.blue10lbs.Size = New System.Drawing.Size(175, 30)
+        Me.blue10lbs.TabIndex = 58
+        Me.blue10lbs.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "10 Lbs. FOAM/AFFF (Blue)"
         '
         'Label3
         '
@@ -633,46 +633,46 @@ Partial Class Product_catalog
         Me.Label3.TabIndex = 61
         Me.Label3.Text = "Php"
         '
-        'blue2price
+        'blue10lbsprice
         '
-        Me.blue2price.AutoSize = True
-        Me.blue2price.BackColor = System.Drawing.Color.White
-        Me.blue2price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.blue2price.ForeColor = System.Drawing.Color.Black
-        Me.blue2price.Location = New System.Drawing.Point(52, 37)
-        Me.blue2price.Name = "blue2price"
-        Me.blue2price.Size = New System.Drawing.Size(43, 15)
-        Me.blue2price.TabIndex = 60
-        Me.blue2price.Text = "1,500"
+        Me.blue10lbsprice.AutoSize = True
+        Me.blue10lbsprice.BackColor = System.Drawing.Color.White
+        Me.blue10lbsprice.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue10lbsprice.ForeColor = System.Drawing.Color.Black
+        Me.blue10lbsprice.Location = New System.Drawing.Point(52, 37)
+        Me.blue10lbsprice.Name = "blue10lbsprice"
+        Me.blue10lbsprice.Size = New System.Drawing.Size(43, 15)
+        Me.blue10lbsprice.TabIndex = 60
+        Me.blue10lbsprice.Text = "1,500"
         '
         'Panel9
         '
         Me.Panel9.BackColor = System.Drawing.Color.Brown
-        Me.Panel9.Controls.Add(Me.bluepicture)
+        Me.Panel9.Controls.Add(Me.blue5lbspic)
         Me.Panel9.Controls.Add(Me.Panel19)
         Me.Panel9.Location = New System.Drawing.Point(23, 340)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(227, 253)
         Me.Panel9.TabIndex = 74
         '
-        'bluepicture
+        'blue5lbspic
         '
-        Me.bluepicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.bluepicture.Image = CType(resources.GetObject("bluepicture.Image"), System.Drawing.Image)
-        Me.bluepicture.Location = New System.Drawing.Point(16, 11)
-        Me.bluepicture.Name = "bluepicture"
-        Me.bluepicture.Size = New System.Drawing.Size(191, 141)
-        Me.bluepicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.bluepicture.TabIndex = 18
-        Me.bluepicture.TabStop = False
+        Me.blue5lbspic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.blue5lbspic.Image = CType(resources.GetObject("blue5lbspic.Image"), System.Drawing.Image)
+        Me.blue5lbspic.Location = New System.Drawing.Point(16, 11)
+        Me.blue5lbspic.Name = "blue5lbspic"
+        Me.blue5lbspic.Size = New System.Drawing.Size(191, 141)
+        Me.blue5lbspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.blue5lbspic.TabIndex = 18
+        Me.blue5lbspic.TabStop = False
         '
         'Panel19
         '
         Me.Panel19.BackColor = System.Drawing.Color.White
         Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel19.Controls.Add(Me.Label9)
-        Me.Panel19.Controls.Add(Me.blue1price)
-        Me.Panel19.Controls.Add(Me.blue1name)
+        Me.Panel19.Controls.Add(Me.blue5lbsprice)
+        Me.Panel19.Controls.Add(Me.blue5lbs)
         Me.Panel19.ForeColor = System.Drawing.Color.Black
         Me.Panel19.Location = New System.Drawing.Point(16, 166)
         Me.Panel19.Margin = New System.Windows.Forms.Padding(2)
@@ -692,36 +692,36 @@ Partial Class Product_catalog
         Me.Label9.TabIndex = 66
         Me.Label9.Text = "Php"
         '
-        'blue1price
+        'blue5lbsprice
         '
-        Me.blue1price.AutoSize = True
-        Me.blue1price.BackColor = System.Drawing.Color.Transparent
-        Me.blue1price.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.blue1price.ForeColor = System.Drawing.Color.Black
-        Me.blue1price.Location = New System.Drawing.Point(52, 37)
-        Me.blue1price.Name = "blue1price"
-        Me.blue1price.Size = New System.Drawing.Size(43, 15)
-        Me.blue1price.TabIndex = 65
-        Me.blue1price.Text = "1,200"
+        Me.blue5lbsprice.AutoSize = True
+        Me.blue5lbsprice.BackColor = System.Drawing.Color.Transparent
+        Me.blue5lbsprice.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue5lbsprice.ForeColor = System.Drawing.Color.Black
+        Me.blue5lbsprice.Location = New System.Drawing.Point(52, 37)
+        Me.blue5lbsprice.Name = "blue5lbsprice"
+        Me.blue5lbsprice.Size = New System.Drawing.Size(43, 15)
+        Me.blue5lbsprice.TabIndex = 65
+        Me.blue5lbsprice.Text = "1,200"
         '
-        'blue1name
+        'blue5lbs
         '
-        Me.blue1name.AutoSize = True
-        Me.blue1name.BackColor = System.Drawing.Color.Transparent
-        Me.blue1name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.blue1name.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.blue1name.ForeColor = System.Drawing.Color.Black
-        Me.blue1name.Location = New System.Drawing.Point(8, 5)
-        Me.blue1name.Name = "blue1name"
-        Me.blue1name.Size = New System.Drawing.Size(167, 30)
-        Me.blue1name.TabIndex = 64
-        Me.blue1name.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Lbs. FOAM/AFFF (Blue)"
+        Me.blue5lbs.AutoSize = True
+        Me.blue5lbs.BackColor = System.Drawing.Color.Transparent
+        Me.blue5lbs.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.blue5lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue5lbs.ForeColor = System.Drawing.Color.Black
+        Me.blue5lbs.Location = New System.Drawing.Point(8, 5)
+        Me.blue5lbs.Name = "blue5lbs"
+        Me.blue5lbs.Size = New System.Drawing.Size(167, 30)
+        Me.blue5lbs.TabIndex = 64
+        Me.blue5lbs.Text = "Fire Extinguisher" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Lbs. FOAM/AFFF (Blue)"
         '
         'Panel17
         '
         Me.Panel17.BackColor = System.Drawing.Color.Brown
         Me.Panel17.Controls.Add(Me.Panel18)
-        Me.Panel17.Controls.Add(Me.PictureBox4)
+        Me.Panel17.Controls.Add(Me.red20lbspic)
         Me.Panel17.Location = New System.Drawing.Point(565, 22)
         Me.Panel17.Name = "Panel17"
         Me.Panel17.Size = New System.Drawing.Size(227, 253)
@@ -777,22 +777,22 @@ Partial Class Product_catalog
         Me.red3price.TabIndex = 36
         Me.red3price.Text = "1,950"
         '
-        'PictureBox4
+        'red20lbspic
         '
-        Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(16, 11)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(191, 141)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 18
-        Me.PictureBox4.TabStop = False
+        Me.red20lbspic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.red20lbspic.Image = CType(resources.GetObject("red20lbspic.Image"), System.Drawing.Image)
+        Me.red20lbspic.Location = New System.Drawing.Point(16, 11)
+        Me.red20lbspic.Name = "red20lbspic"
+        Me.red20lbspic.Size = New System.Drawing.Size(191, 141)
+        Me.red20lbspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.red20lbspic.TabIndex = 18
+        Me.red20lbspic.TabStop = False
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Brown
         Me.Panel1.Controls.Add(Me.Panel12)
-        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Controls.Add(Me.red10lbspic)
         Me.Panel1.Location = New System.Drawing.Point(295, 22)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(227, 253)
@@ -848,22 +848,22 @@ Partial Class Product_catalog
         Me.red2price.TabIndex = 34
         Me.red2price.Text = "1,500"
         '
-        'PictureBox1
+        'red10lbspic
         '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(16, 11)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(191, 141)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 18
-        Me.PictureBox1.TabStop = False
+        Me.red10lbspic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.red10lbspic.Image = CType(resources.GetObject("red10lbspic.Image"), System.Drawing.Image)
+        Me.red10lbspic.Location = New System.Drawing.Point(16, 11)
+        Me.red10lbspic.Name = "red10lbspic"
+        Me.red10lbspic.Size = New System.Drawing.Size(191, 141)
+        Me.red10lbspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.red10lbspic.TabIndex = 18
+        Me.red10lbspic.TabStop = False
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Brown
         Me.Panel2.Controls.Add(Me.Panel8)
-        Me.Panel2.Controls.Add(Me.red1picture)
+        Me.Panel2.Controls.Add(Me.red5lbspic)
         Me.Panel2.Location = New System.Drawing.Point(23, 22)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(227, 253)
@@ -919,16 +919,16 @@ Partial Class Product_catalog
         Me.Label1.TabIndex = 47
         Me.Label1.Text = "Php"
         '
-        'red1picture
+        'red5lbspic
         '
-        Me.red1picture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.red1picture.Image = CType(resources.GetObject("red1picture.Image"), System.Drawing.Image)
-        Me.red1picture.Location = New System.Drawing.Point(16, 11)
-        Me.red1picture.Name = "red1picture"
-        Me.red1picture.Size = New System.Drawing.Size(191, 141)
-        Me.red1picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.red1picture.TabIndex = 18
-        Me.red1picture.TabStop = False
+        Me.red5lbspic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.red5lbspic.Image = CType(resources.GetObject("red5lbspic.Image"), System.Drawing.Image)
+        Me.red5lbspic.Location = New System.Drawing.Point(16, 11)
+        Me.red5lbspic.Name = "red5lbspic"
+        Me.red5lbspic.Size = New System.Drawing.Size(191, 141)
+        Me.red5lbspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.red5lbspic.TabIndex = 18
+        Me.red5lbspic.TabStop = False
         '
         'Button1
         '
@@ -1006,29 +1006,29 @@ Partial Class Product_catalog
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.Panel21.ResumeLayout(False)
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.blue20lbspic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel22.ResumeLayout(False)
         Me.Panel22.PerformLayout()
         Me.Panel3.ResumeLayout(False)
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.blue10lbspic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel20.ResumeLayout(False)
         Me.Panel20.PerformLayout()
         Me.Panel9.ResumeLayout(False)
-        CType(Me.bluepicture, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.blue5lbspic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel19.ResumeLayout(False)
         Me.Panel19.PerformLayout()
         Me.Panel17.ResumeLayout(False)
         Me.Panel18.ResumeLayout(False)
         Me.Panel18.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.red20lbspic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel12.ResumeLayout(False)
         Me.Panel12.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.red10lbspic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout()
-        CType(Me.red1picture, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.red5lbspic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -1065,22 +1065,22 @@ Partial Class Product_catalog
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
-    Friend WithEvents red1picture As PictureBox
+    Friend WithEvents red5lbspic As PictureBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents blue1name As Label
-    Friend WithEvents blue1price As Label
-    Friend WithEvents blue3price As Label
+    Friend WithEvents blue5lbs As Label
+    Friend WithEvents blue5lbsprice As Label
+    Friend WithEvents blue20lbsprice As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents blue2name As Label
-    Friend WithEvents blue2price As Label
+    Friend WithEvents blue10lbs As Label
+    Friend WithEvents blue10lbsprice As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents blue3name As Label
+    Friend WithEvents blue20lbs As Label
     Friend WithEvents red1price As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents red5lbs As Label
     Friend WithEvents red3price As Label
     Friend WithEvents red2price As Label
-    Friend WithEvents bluepicture As PictureBox
+    Friend WithEvents blue5lbspic As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Panel2 As Panel
@@ -1089,18 +1089,18 @@ Partial Class Product_catalog
     Friend WithEvents Panel12 As Panel
     Friend WithEvents red10lbs As Label
     Friend WithEvents Label13 As Label
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents red10lbspic As PictureBox
     Friend WithEvents Panel17 As Panel
     Friend WithEvents Panel18 As Panel
     Friend WithEvents red20lbs As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents red20lbspic As PictureBox
     Friend WithEvents Panel9 As Panel
     Friend WithEvents Panel19 As Panel
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents blue10lbspic As PictureBox
     Friend WithEvents Panel20 As Panel
     Friend WithEvents Panel21 As Panel
-    Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents blue20lbspic As PictureBox
     Friend WithEvents Panel22 As Panel
 End Class

@@ -13,9 +13,9 @@ Public Class Product_catalog
 
     Private Sub blue1name_Click_1(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
-        ProductData.CurrentProductName = blue1name.Text
-        ProductData.CurrentProductPrice = Decimal.Parse(blue1price.Text)
-        ProductData.CurrentProductImage = bluepicture.Image
+        ProductData.CurrentProductName = blue5lbs.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue5lbsprice.Text)
+        ProductData.CurrentProductImage = blue5lbspic.Image
         orderfrm.Show()
         Frontpage.Hide()
 
@@ -23,18 +23,18 @@ Public Class Product_catalog
 
     Private Sub blue2name_Click_1(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
-        ProductData.CurrentProductName = blue2name.Text
-        ProductData.CurrentProductPrice = Decimal.Parse(blue2price.Text)
-        ProductData.CurrentProductImage = bluepicture.Image
+        ProductData.CurrentProductName = blue10lbs.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue10lbsprice.Text)
+        ProductData.CurrentProductImage = blue5lbspic.Image
         orderfrm.Show()
 
     End Sub
 
     Private Sub blue3name_Click_1(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
-        ProductData.CurrentProductName = blue3name.Text
-        ProductData.CurrentProductPrice = Decimal.Parse(blue3price.Text)
-        ProductData.CurrentProductImage = bluepicture.Image
+        ProductData.CurrentProductName = blue20lbs.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue20lbsprice.Text)
+        ProductData.CurrentProductImage = blue5lbspic.Image
         orderfrm.Show()
 
     End Sub
@@ -83,36 +83,116 @@ Public Class Product_catalog
         g.DrawString(tabText, TabControl1.Font, New SolidBrush(textColor), tabRect, sf)
     End Sub
     Private Sub red5lbs_Click(sender As Object, e As EventArgs) Handles red5lbs.Click
-        Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = red5lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red1price.Text)
-        ProductData.CurrentProductImage = red1picture.Image
-        orderfrm.Show()
+        ProductData.CurrentProductImage = red5lbspic.Image
+        Dim mainForm = Application.OpenForms("Frontpage")
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim orderForm As New OrderForm()
+            AddHandler orderForm.FormClosed, Sub()
+                                                 mainForm.Show() ' When OrderForm closes, show MainForm again
+                                             End Sub
+            orderForm.Show()
+        End If
     End Sub
 
     Private Sub red10lbs_Click(sender As Object, e As EventArgs) Handles red10lbs.Click
-        Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = red10lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red2price.Text)
-        ProductData.CurrentProductImage = red1picture.Image
-        orderfrm.Show()
+        ProductData.CurrentProductImage = red5lbspic.Image
+        Dim mainForm = Application.OpenForms("Frontpage")
 
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim orderForm As New OrderForm()
+            AddHandler orderForm.FormClosed, Sub()
+                                                 mainForm.Show() ' When OrderForm closes, show MainForm again
+                                             End Sub
+            orderForm.Show()
+        End If
     End Sub
 
     Private Sub red20lbs_Click(sender As Object, e As EventArgs) Handles red20lbs.Click
-        Dim orderfrm As New OrderForm()
+
         ProductData.CurrentProductName = red20lbs.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red3price.Text)
-        ProductData.CurrentProductImage = red1picture.Image
-        orderfrm.Show()
+        ProductData.CurrentProductImage = red5lbspic.Image
+        Dim mainForm = Application.OpenForms("Frontpage")
+
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim orderForm As New OrderForm()
+            AddHandler orderForm.FormClosed, Sub()
+                                                 mainForm.Show() ' When OrderForm closes, show MainForm again
+                                             End Sub
+            orderForm.Show()
+        End If
 
     End Sub
+    Private Sub blue5lbs_Click(sender As Object, e As EventArgs) Handles blue5lbs.Click
+        ProductData.CurrentProductName = blue5lbs.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue5lbsprice.Text)
+        ProductData.CurrentProductImage = blue5lbspic.Image
+        Dim mainForm = Application.OpenForms("Frontpage")
 
-    Private Sub MainPanel_Paint(sender As Object, e As PaintEventArgs)
-
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim orderForm As New OrderForm()
+            AddHandler orderForm.FormClosed, Sub()
+                                                 mainForm.Show() ' When OrderForm closes, show MainForm again
+                                             End Sub
+            orderForm.Show()
+        End If
     End Sub
 
-    Private Sub red1picture_Click(sender As Object, e As EventArgs) Handles red1picture.Click
+    Private Sub blue10lbs_Click(sender As Object, e As EventArgs) Handles blue10lbs.Click
+        ProductData.CurrentProductName = blue10lbs.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue10lbsprice.Text)
+        ProductData.CurrentProductImage = blue10lbspic.Image
+        Dim mainForm = Application.OpenForms("Frontpage")
 
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim orderForm As New OrderForm()
+            AddHandler orderForm.FormClosed, Sub()
+                                                 mainForm.Show() ' When OrderForm closes, show MainForm again
+                                             End Sub
+            orderForm.Show()
+        End If
+    End Sub
+
+    Private Sub blue20lbs_Click(sender As Object, e As EventArgs) Handles blue20lbs.Click
+        ProductData.CurrentProductName = blue10lbs.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue10lbsprice.Text)
+        ProductData.CurrentProductImage = blue20lbspic.Image
+        Dim mainForm = Application.OpenForms("Frontpage")
+
+        ' Make sure it's found
+        If mainForm IsNot Nothing Then
+            ' Hide the main form instead of closing it
+            mainForm.Hide()
+            ' Create and show the OrderForm as a dialog (so it blocks other actions)
+            Dim orderForm As New OrderForm()
+            AddHandler orderForm.FormClosed, Sub()
+                                                 mainForm.Show() ' When OrderForm closes, show MainForm again
+                                             End Sub
+            orderForm.Show()
+        End If
     End Sub
 End Class
