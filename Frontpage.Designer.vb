@@ -26,18 +26,25 @@ Partial Class Frontpage
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Userlabel = New System.Windows.Forms.Label()
         Me.pnlMenu = New System.Windows.Forms.Panel()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.servicebtn = New System.Windows.Forms.Button()
-        Me.mainbtn = New System.Windows.Forms.Button()
         Me.prodbtn = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MainPanel = New System.Windows.Forms.Panel()
+        Me.parentpanel = New System.Windows.Forms.Panel()
+        Me.servicespanel = New System.Windows.Forms.Panel()
+        Me.productpanel = New System.Windows.Forms.Panel()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -64,14 +71,13 @@ Partial Class Frontpage
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.dashboardname = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.pnlMenu.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MainPanel.SuspendLayout()
+        Me.parentpanel.SuspendLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel5.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel4.SuspendLayout()
@@ -81,9 +87,6 @@ Partial Class Frontpage
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -119,7 +122,6 @@ Partial Class Frontpage
         Me.pnlMenu.Controls.Add(Me.Button10)
         Me.pnlMenu.Controls.Add(Me.Button11)
         Me.pnlMenu.Controls.Add(Me.servicebtn)
-        Me.pnlMenu.Controls.Add(Me.mainbtn)
         Me.pnlMenu.Controls.Add(Me.prodbtn)
         Me.pnlMenu.Controls.Add(Me.Button15)
         Me.pnlMenu.Controls.Add(Me.Button16)
@@ -131,6 +133,16 @@ Partial Class Frontpage
         Me.pnlMenu.Size = New System.Drawing.Size(272, 681)
         Me.pnlMenu.TabIndex = 1
         '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
+        Me.PictureBox8.Location = New System.Drawing.Point(23, 550)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(44, 38)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 53
+        Me.PictureBox8.TabStop = False
+        '
         'Button1
         '
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -139,7 +151,7 @@ Partial Class Frontpage
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button1.Location = New System.Drawing.Point(48, 564)
+        Me.Button1.Location = New System.Drawing.Point(50, 554)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(194, 28)
@@ -182,7 +194,7 @@ Partial Class Frontpage
         Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_settings_23
         Me.Button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button10.Location = New System.Drawing.Point(23, 444)
+        Me.Button10.Location = New System.Drawing.Point(23, 416)
         Me.Button10.Margin = New System.Windows.Forms.Padding(2)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(194, 28)
@@ -198,7 +210,7 @@ Partial Class Frontpage
         Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button11.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_warranty_24
         Me.Button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button11.Location = New System.Drawing.Point(21, 392)
+        Me.Button11.Location = New System.Drawing.Point(23, 356)
         Me.Button11.Margin = New System.Windows.Forms.Padding(2)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(205, 28)
@@ -214,29 +226,13 @@ Partial Class Frontpage
         Me.servicebtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.servicebtn.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_services_24
         Me.servicebtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.servicebtn.Location = New System.Drawing.Point(21, 340)
+        Me.servicebtn.Location = New System.Drawing.Point(23, 298)
         Me.servicebtn.Margin = New System.Windows.Forms.Padding(2)
         Me.servicebtn.Name = "servicebtn"
         Me.servicebtn.Size = New System.Drawing.Size(191, 28)
         Me.servicebtn.TabIndex = 48
         Me.servicebtn.Text = " SERVICES"
         Me.servicebtn.UseVisualStyleBackColor = True
-        '
-        'mainbtn
-        '
-        Me.mainbtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.mainbtn.FlatAppearance.BorderSize = 0
-        Me.mainbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.mainbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mainbtn.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_maintenance_22
-        Me.mainbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mainbtn.Location = New System.Drawing.Point(21, 286)
-        Me.mainbtn.Margin = New System.Windows.Forms.Padding(2)
-        Me.mainbtn.Name = "mainbtn"
-        Me.mainbtn.Size = New System.Drawing.Size(205, 28)
-        Me.mainbtn.TabIndex = 47
-        Me.mainbtn.Text = "    MAINTENANCE"
-        Me.mainbtn.UseVisualStyleBackColor = True
         '
         'prodbtn
         '
@@ -246,7 +242,7 @@ Partial Class Frontpage
         Me.prodbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.prodbtn.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_fire_extinguisher_25__1_
         Me.prodbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.prodbtn.Location = New System.Drawing.Point(21, 238)
+        Me.prodbtn.Location = New System.Drawing.Point(21, 246)
         Me.prodbtn.Margin = New System.Windows.Forms.Padding(2)
         Me.prodbtn.Name = "prodbtn"
         Me.prodbtn.Size = New System.Drawing.Size(196, 28)
@@ -298,6 +294,7 @@ Partial Class Frontpage
         '
         'MainPanel
         '
+        Me.MainPanel.Controls.Add(Me.parentpanel)
         Me.MainPanel.Controls.Add(Me.PictureBox7)
         Me.MainPanel.Controls.Add(Me.PictureBox6)
         Me.MainPanel.Controls.Add(Me.Label20)
@@ -318,6 +315,76 @@ Partial Class Frontpage
         Me.MainPanel.Name = "MainPanel"
         Me.MainPanel.Size = New System.Drawing.Size(1264, 681)
         Me.MainPanel.TabIndex = 21
+        '
+        'parentpanel
+        '
+        Me.parentpanel.Controls.Add(Me.servicespanel)
+        Me.parentpanel.Controls.Add(Me.productpanel)
+        Me.parentpanel.Location = New System.Drawing.Point(270, 0)
+        Me.parentpanel.Name = "parentpanel"
+        Me.parentpanel.Size = New System.Drawing.Size(994, 681)
+        Me.parentpanel.TabIndex = 46
+        Me.parentpanel.Visible = False
+        '
+        'servicespanel
+        '
+        Me.servicespanel.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.servicespanel.Location = New System.Drawing.Point(213, 67)
+        Me.servicespanel.Name = "servicespanel"
+        Me.servicespanel.Size = New System.Drawing.Size(251, 248)
+        Me.servicespanel.TabIndex = 1
+        Me.servicespanel.Visible = False
+        '
+        'productpanel
+        '
+        Me.productpanel.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.productpanel.Location = New System.Drawing.Point(662, 32)
+        Me.productpanel.Name = "productpanel"
+        Me.productpanel.Size = New System.Drawing.Size(296, 296)
+        Me.productpanel.TabIndex = 0
+        Me.productpanel.Visible = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
+        Me.PictureBox7.Location = New System.Drawing.Point(1000, 47)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(23, 22)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 45
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
+        Me.PictureBox6.Location = New System.Drawing.Point(1002, 14)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(23, 22)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 44
+        Me.PictureBox6.TabStop = False
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Black
+        Me.Label20.Location = New System.Drawing.Point(1028, 14)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(229, 20)
+        Me.Label20.TabIndex = 43
+        Me.Label20.Text = "lynartmarketing@gmail.com"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.Black
+        Me.Label19.Location = New System.Drawing.Point(1029, 47)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(129, 18)
+        Me.Label19.TabIndex = 42
+        Me.Label19.Text = "(0921) 6950 199"
         '
         'Panel5
         '
@@ -603,58 +670,6 @@ Partial Class Frontpage
         Me.dashboardname.TabIndex = 32
         Me.dashboardname.Text = "USER"
         '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.Black
-        Me.Label19.Location = New System.Drawing.Point(1029, 47)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(129, 18)
-        Me.Label19.TabIndex = 42
-        Me.Label19.Text = "(0921) 6950 199"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(1028, 14)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(229, 20)
-        Me.Label20.TabIndex = 43
-        Me.Label20.Text = "lynartmarketing@gmail.com"
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(1002, 14)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(23, 22)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 44
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(1000, 47)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(23, 22)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 45
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(21, 560)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(44, 38)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 53
-        Me.PictureBox8.TabStop = False
-        '
         'Frontpage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -663,7 +678,7 @@ Partial Class Frontpage
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.MainPanel)
-        Me.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.ForeColor = System.Drawing.Color.Transparent
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Frontpage"
@@ -671,9 +686,13 @@ Partial Class Frontpage
         Me.Text = "FRONTPAGE"
         Me.pnlMenu.ResumeLayout(False)
         Me.pnlMenu.PerformLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MainPanel.ResumeLayout(False)
         Me.MainPanel.PerformLayout()
+        Me.parentpanel.ResumeLayout(False)
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
         Me.Panel2.ResumeLayout(False)
@@ -688,9 +707,6 @@ Partial Class Frontpage
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -701,7 +717,6 @@ Partial Class Frontpage
     Friend WithEvents Button10 As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents servicebtn As Button
-    Friend WithEvents mainbtn As Button
     Friend WithEvents prodbtn As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
@@ -740,4 +755,7 @@ Partial Class Frontpage
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents parentpanel As Panel
+    Friend WithEvents productpanel As Panel
+    Friend WithEvents servicespanel As Panel
 End Class
