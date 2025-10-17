@@ -33,33 +33,33 @@ Partial Class maintenanceform
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.cmbPriority = New System.Windows.Forms.ComboBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.repairman = New System.Windows.Forms.ComboBox()
         Me.partname = New System.Windows.Forms.Label()
         Me.partpic = New System.Windows.Forms.PictureBox()
-        Me.cmbPriority = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.quantitynum = New System.Windows.Forms.TextBox()
         Me.totalamntbox = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.partsprice = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.repairman = New System.Windows.Forms.ComboBox()
-        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.submitbtn = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.ServcsPage = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         CType(Me.partpic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
         Me.Panel5.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'clientemail
@@ -170,6 +170,35 @@ Partial Class maintenanceform
         Me.Panel1.Size = New System.Drawing.Size(630, 296)
         Me.Panel1.TabIndex = 50
         '
+        'cmbPriority
+        '
+        Me.cmbPriority.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbPriority.FormattingEnabled = True
+        Me.cmbPriority.Location = New System.Drawing.Point(213, 247)
+        Me.cmbPriority.Name = "cmbPriority"
+        Me.cmbPriority.Size = New System.Drawing.Size(160, 28)
+        Me.cmbPriority.TabIndex = 59
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label9.Location = New System.Drawing.Point(397, 209)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(136, 24)
+        Me.Label9.TabIndex = 63
+        Me.Label9.Text = "REPAIRMAN:"
+        '
+        'repairman
+        '
+        Me.repairman.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.repairman.FormattingEnabled = True
+        Me.repairman.Location = New System.Drawing.Point(401, 245)
+        Me.repairman.Name = "repairman"
+        Me.repairman.Size = New System.Drawing.Size(189, 28)
+        Me.repairman.TabIndex = 62
+        '
         'partname
         '
         Me.partname.AutoSize = True
@@ -191,15 +220,6 @@ Partial Class maintenanceform
         Me.partpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.partpic.TabIndex = 0
         Me.partpic.TabStop = False
-        '
-        'cmbPriority
-        '
-        Me.cmbPriority.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbPriority.FormattingEnabled = True
-        Me.cmbPriority.Location = New System.Drawing.Point(213, 247)
-        Me.cmbPriority.Name = "cmbPriority"
-        Me.cmbPriority.Size = New System.Drawing.Size(160, 28)
-        Me.cmbPriority.TabIndex = 59
         '
         'Label1
         '
@@ -260,6 +280,17 @@ Partial Class maintenanceform
         Me.partsprice.Size = New System.Drawing.Size(140, 22)
         Me.partsprice.TabIndex = 54
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label7.Location = New System.Drawing.Point(34, 247)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(173, 24)
+        Me.Label7.TabIndex = 60
+        Me.Label7.Text = "REQUEST TYPE:"
+        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -277,7 +308,7 @@ Partial Class maintenanceform
         '
         Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.Controls.Add(Me.Button2)
-        Me.Panel2.Controls.Add(Me.Button3)
+        Me.Panel2.Controls.Add(Me.submitbtn)
         Me.Panel2.Controls.Add(Me.Panel5)
         Me.Panel2.Controls.Add(Me.Panel3)
         Me.Panel2.Controls.Add(Me.Button1)
@@ -289,54 +320,31 @@ Partial Class maintenanceform
         Me.Panel2.Size = New System.Drawing.Size(1334, 518)
         Me.Panel2.TabIndex = 62
         '
-        'Panel3
+        'Button2
         '
-        Me.Panel3.BackColor = System.Drawing.Color.Firebrick
-        Me.Panel3.Controls.Add(Me.Label6)
-        Me.Panel3.Controls.Add(Me.Label4)
-        Me.Panel3.Controls.Add(Me.clientemail)
-        Me.Panel3.Controls.Add(Me.Label11)
-        Me.Panel3.Controls.Add(Me.clientcontact)
-        Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Controls.Add(Me.clientaddress)
-        Me.Panel3.Controls.Add(Me.Label5)
-        Me.Panel3.Controls.Add(Me.clientname)
-        Me.Panel3.Location = New System.Drawing.Point(11, 132)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(679, 296)
-        Me.Panel3.TabIndex = 59
+        Me.Button2.BackColor = System.Drawing.Color.Firebrick
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(604, 446)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(86, 35)
+        Me.Button2.TabIndex = 62
+        Me.Button2.Text = "CANCEL"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'Label7
+        'submitbtn
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label7.Location = New System.Drawing.Point(34, 247)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(173, 24)
-        Me.Label7.TabIndex = 60
-        Me.Label7.Text = "REQUEST TYPE:"
-        '
-        'repairman
-        '
-        Me.repairman.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.repairman.FormattingEnabled = True
-        Me.repairman.Location = New System.Drawing.Point(401, 245)
-        Me.repairman.Name = "repairman"
-        Me.repairman.Size = New System.Drawing.Size(189, 28)
-        Me.repairman.TabIndex = 62
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label9.Location = New System.Drawing.Point(397, 209)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(136, 24)
-        Me.Label9.TabIndex = 63
-        Me.Label9.Text = "REPAIRMAN:"
+        Me.submitbtn.BackColor = System.Drawing.Color.Firebrick
+        Me.submitbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.submitbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.submitbtn.ForeColor = System.Drawing.Color.White
+        Me.submitbtn.Location = New System.Drawing.Point(695, 446)
+        Me.submitbtn.Name = "submitbtn"
+        Me.submitbtn.Size = New System.Drawing.Size(81, 35)
+        Me.submitbtn.TabIndex = 61
+        Me.submitbtn.Text = "SUBMIT"
+        Me.submitbtn.UseVisualStyleBackColor = False
         '
         'Panel5
         '
@@ -387,31 +395,23 @@ Partial Class maintenanceform
         Me.ServcsPage.TabIndex = 4
         Me.ServcsPage.Text = "PARTS REPLACEMENT REQUEST FORM"
         '
-        'Button2
+        'Panel3
         '
-        Me.Button2.BackColor = System.Drawing.Color.Firebrick
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(604, 446)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(86, 35)
-        Me.Button2.TabIndex = 62
-        Me.Button2.Text = "CANCEL"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.Firebrick
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(695, 446)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(81, 35)
-        Me.Button3.TabIndex = 61
-        Me.Button3.Text = "SUBMIT"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Panel3.BackColor = System.Drawing.Color.Firebrick
+        Me.Panel3.Controls.Add(Me.Label6)
+        Me.Panel3.Controls.Add(Me.Label4)
+        Me.Panel3.Controls.Add(Me.clientemail)
+        Me.Panel3.Controls.Add(Me.Label11)
+        Me.Panel3.Controls.Add(Me.clientcontact)
+        Me.Panel3.Controls.Add(Me.Label3)
+        Me.Panel3.Controls.Add(Me.clientaddress)
+        Me.Panel3.Controls.Add(Me.Label5)
+        Me.Panel3.Controls.Add(Me.clientname)
+        Me.Panel3.Location = New System.Drawing.Point(11, 132)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(679, 296)
+        Me.Panel3.TabIndex = 59
         '
         'maintenanceform
         '
@@ -426,11 +426,11 @@ Partial Class maintenanceform
         Me.Panel1.PerformLayout()
         CType(Me.partpic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -464,5 +464,5 @@ Partial Class maintenanceform
     Friend WithEvents Label8 As Label
     Friend WithEvents ServcsPage As Label
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents submitbtn As Button
 End Class
