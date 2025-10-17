@@ -88,6 +88,8 @@ Partial Class Services
         Me.valvename = New System.Windows.Forms.Label()
         Me.repairitemslbl = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -115,6 +117,8 @@ Partial Class Services
         Me.ValvePnl.SuspendLayout()
         CType(Me.valvepic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel7.SuspendLayout()
+        Me.FlowLayoutPanel1.SuspendLayout()
+        Me.FlowLayoutPanel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -169,6 +173,8 @@ Partial Class Services
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.White
+        Me.Panel2.Controls.Add(Me.Button2)
+        Me.Panel2.Controls.Add(Me.Button1)
         Me.Panel2.Controls.Add(Me.TabControl1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 109)
@@ -195,11 +201,7 @@ Partial Class Services
         '
         Me.TabPage1.AutoScroll = True
         Me.TabPage1.BackColor = System.Drawing.Color.White
-        Me.TabPage1.Controls.Add(Me.Panel4)
-        Me.TabPage1.Controls.Add(Me.Button1)
-        Me.TabPage1.Controls.Add(Me.Panel3)
-        Me.TabPage1.Controls.Add(Me.BlueDesc)
-        Me.TabPage1.Controls.Add(Me.RedDesc)
+        Me.TabPage1.Controls.Add(Me.FlowLayoutPanel1)
         Me.TabPage1.Location = New System.Drawing.Point(4, 44)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
@@ -211,7 +213,7 @@ Partial Class Services
         '
         Me.Panel4.BackColor = System.Drawing.Color.Brown
         Me.Panel4.Controls.Add(Me.Blue)
-        Me.Panel4.Location = New System.Drawing.Point(34, 245)
+        Me.Panel4.Location = New System.Drawing.Point(3, 155)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(191, 146)
         Me.Panel4.TabIndex = 73
@@ -233,7 +235,7 @@ Partial Class Services
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(865, 6)
+        Me.Button1.Location = New System.Drawing.Point(839, 3)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 36)
         Me.Button1.TabIndex = 70
@@ -244,7 +246,7 @@ Partial Class Services
         '
         Me.Panel3.BackColor = System.Drawing.Color.Brown
         Me.Panel3.Controls.Add(Me.Red)
-        Me.Panel3.Location = New System.Drawing.Point(34, 57)
+        Me.Panel3.Location = New System.Drawing.Point(3, 3)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(191, 146)
         Me.Panel3.TabIndex = 72
@@ -273,10 +275,10 @@ Partial Class Services
         Me.BlueDesc.Controls.Add(Me.blue20lbs)
         Me.BlueDesc.Controls.Add(Me.blue10lbs)
         Me.BlueDesc.Controls.Add(Me.blue5lbs)
-        Me.BlueDesc.Location = New System.Drawing.Point(230, 245)
+        Me.BlueDesc.Location = New System.Drawing.Point(199, 154)
         Me.BlueDesc.Margin = New System.Windows.Forms.Padding(2)
         Me.BlueDesc.Name = "BlueDesc"
-        Me.BlueDesc.Size = New System.Drawing.Size(693, 146)
+        Me.BlueDesc.Size = New System.Drawing.Size(761, 146)
         Me.BlueDesc.TabIndex = 8
         '
         'blue20lbsprice
@@ -392,7 +394,7 @@ Partial Class Services
         Me.blue5lbs.Cursor = System.Windows.Forms.Cursors.Hand
         Me.blue5lbs.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.blue5lbs.ForeColor = System.Drawing.Color.Black
-        Me.blue5lbs.Location = New System.Drawing.Point(38, 13)
+        Me.blue5lbs.Location = New System.Drawing.Point(38, 14)
         Me.blue5lbs.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.blue5lbs.Name = "blue5lbs"
         Me.blue5lbs.Size = New System.Drawing.Size(296, 20)
@@ -412,10 +414,10 @@ Partial Class Services
         Me.RedDesc.Controls.Add(Me.Red20lbs)
         Me.RedDesc.Controls.Add(Me.Red10lbs)
         Me.RedDesc.Controls.Add(Me.Red5lbs)
-        Me.RedDesc.Location = New System.Drawing.Point(230, 57)
+        Me.RedDesc.Location = New System.Drawing.Point(199, 2)
         Me.RedDesc.Margin = New System.Windows.Forms.Padding(2)
         Me.RedDesc.Name = "RedDesc"
-        Me.RedDesc.Size = New System.Drawing.Size(693, 146)
+        Me.RedDesc.Size = New System.Drawing.Size(761, 146)
         Me.RedDesc.TabIndex = 6
         '
         'Red20lbsprice
@@ -541,13 +543,8 @@ Partial Class Services
         'TabPage2
         '
         Me.TabPage2.AutoScroll = True
-        Me.TabPage2.Controls.Add(Me.Panel11)
-        Me.TabPage2.Controls.Add(Me.Panel12)
-        Me.TabPage2.Controls.Add(Me.Panel9)
-        Me.TabPage2.Controls.Add(Me.Panel8)
-        Me.TabPage2.Controls.Add(Me.ValvePnl)
+        Me.TabPage2.Controls.Add(Me.FlowLayoutPanel2)
         Me.TabPage2.Controls.Add(Me.repairitemslbl)
-        Me.TabPage2.Controls.Add(Me.Button2)
         Me.TabPage2.Location = New System.Drawing.Point(4, 44)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
@@ -561,7 +558,7 @@ Partial Class Services
         Me.Panel11.BackColor = System.Drawing.Color.Firebrick
         Me.Panel11.Controls.Add(Me.hosepic)
         Me.Panel11.Controls.Add(Me.Panel14)
-        Me.Panel11.Location = New System.Drawing.Point(34, 337)
+        Me.Panel11.Location = New System.Drawing.Point(702, 2)
         Me.Panel11.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(171, 274)
@@ -635,7 +632,7 @@ Partial Class Services
         Me.Panel12.BackColor = System.Drawing.Color.Firebrick
         Me.Panel12.Controls.Add(Me.beltpic)
         Me.Panel12.Controls.Add(Me.Panel13)
-        Me.Panel12.Location = New System.Drawing.Point(666, 42)
+        Me.Panel12.Location = New System.Drawing.Point(527, 2)
         Me.Panel12.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(171, 274)
@@ -709,7 +706,7 @@ Partial Class Services
         Me.Panel9.BackColor = System.Drawing.Color.Firebrick
         Me.Panel9.Controls.Add(Me.Panel10)
         Me.Panel9.Controls.Add(Me.valvewithgauge)
-        Me.Panel9.Location = New System.Drawing.Point(458, 42)
+        Me.Panel9.Location = New System.Drawing.Point(352, 2)
         Me.Panel9.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(171, 274)
@@ -783,7 +780,7 @@ Partial Class Services
         Me.Panel8.BackColor = System.Drawing.Color.Firebrick
         Me.Panel8.Controls.Add(Me.gaugepic)
         Me.Panel8.Controls.Add(Me.Panel6)
-        Me.Panel8.Location = New System.Drawing.Point(242, 42)
+        Me.Panel8.Location = New System.Drawing.Point(177, 2)
         Me.Panel8.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(171, 274)
@@ -857,7 +854,7 @@ Partial Class Services
         Me.ValvePnl.BackColor = System.Drawing.Color.Firebrick
         Me.ValvePnl.Controls.Add(Me.valvepic)
         Me.ValvePnl.Controls.Add(Me.Panel7)
-        Me.ValvePnl.Location = New System.Drawing.Point(34, 42)
+        Me.ValvePnl.Location = New System.Drawing.Point(2, 2)
         Me.ValvePnl.Margin = New System.Windows.Forms.Padding(2)
         Me.ValvePnl.Name = "ValvePnl"
         Me.ValvePnl.Size = New System.Drawing.Size(171, 274)
@@ -944,12 +941,37 @@ Partial Class Services
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(845, 6)
+        Me.Button2.Location = New System.Drawing.Point(657, 3)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(102, 36)
         Me.Button2.TabIndex = 71
         Me.Button2.Text = "ADD ITEM"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.Controls.Add(Me.Panel3)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RedDesc)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
+        Me.FlowLayoutPanel1.Controls.Add(Me.BlueDesc)
+        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(964, 479)
+        Me.FlowLayoutPanel1.TabIndex = 74
+        '
+        'FlowLayoutPanel2
+        '
+        Me.FlowLayoutPanel2.Controls.Add(Me.ValvePnl)
+        Me.FlowLayoutPanel2.Controls.Add(Me.Panel8)
+        Me.FlowLayoutPanel2.Controls.Add(Me.Panel9)
+        Me.FlowLayoutPanel2.Controls.Add(Me.Panel12)
+        Me.FlowLayoutPanel2.Controls.Add(Me.Panel11)
+        Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(964, 479)
+        Me.FlowLayoutPanel2.TabIndex = 87
         '
         'Services
         '
@@ -998,6 +1020,8 @@ Partial Class Services
         CType(Me.valvepic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
+        Me.FlowLayoutPanel1.ResumeLayout(False)
+        Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -1067,4 +1091,6 @@ Partial Class Services
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
 End Class
