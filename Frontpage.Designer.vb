@@ -130,7 +130,7 @@ Partial Class Frontpage
         Me.pnlMenu.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
         Me.pnlMenu.Name = "pnlMenu"
-        Me.pnlMenu.Size = New System.Drawing.Size(272, 681)
+        Me.pnlMenu.Size = New System.Drawing.Size(278, 681)
         Me.pnlMenu.TabIndex = 1
         '
         'PictureBox8
@@ -294,6 +294,7 @@ Partial Class Frontpage
         '
         'MainPanel
         '
+        Me.MainPanel.AutoScroll = True
         Me.MainPanel.Controls.Add(Me.parentpanel)
         Me.MainPanel.Controls.Add(Me.PictureBox7)
         Me.MainPanel.Controls.Add(Me.PictureBox6)
@@ -318,11 +319,13 @@ Partial Class Frontpage
         '
         'parentpanel
         '
+        Me.parentpanel.AutoScroll = True
         Me.parentpanel.Controls.Add(Me.servicespanel)
         Me.parentpanel.Controls.Add(Me.productpanel)
-        Me.parentpanel.Location = New System.Drawing.Point(270, 0)
+        Me.parentpanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.parentpanel.Location = New System.Drawing.Point(278, 0)
         Me.parentpanel.Name = "parentpanel"
-        Me.parentpanel.Size = New System.Drawing.Size(994, 681)
+        Me.parentpanel.Size = New System.Drawing.Size(986, 681)
         Me.parentpanel.TabIndex = 46
         Me.parentpanel.Visible = False
         '
@@ -337,6 +340,7 @@ Partial Class Frontpage
         '
         'productpanel
         '
+        Me.productpanel.AutoScroll = True
         Me.productpanel.BackColor = System.Drawing.SystemColors.ControlDark
         Me.productpanel.Location = New System.Drawing.Point(662, 32)
         Me.productpanel.Name = "productpanel"
